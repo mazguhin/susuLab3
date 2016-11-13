@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+}
+
+main {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+body>header {
+  text-align: center;
+  background: #40140F;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.intro-text {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.intro-quote {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+body>header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+section {
+  padding: 100px 40px 100px 40px;
+}
+
+section header {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.capabilities {
+  background: #7F291E;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  border-left: 10px solid #FB503B;
+  padding: 0;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ol {
+  list-style: none;
+  border-left: 10px solid #fff;
+  padding: 0;
+}
+
+ol li {
+  padding: 10px;
+}
+
+ol li em {
+  font-weight: 400;
+}
+
+th {
+  font-weight: 400;
+  color: #fff;
+  background: #FB503B;
+  padding: 10px 15px;
+  border-top: 4px solid #E54936;
+  text-align: center;
+}
+
+tr:hover td {
+  background: #f7c7c1;
+}
+
+td {
+  padding: 10px 15px;
+}
+
+.code-example {
+  background: #7F291E;
+  color: #fff;
+}
+
+pre {
+  border-left: 10px solid #FB503B;
+  padding: 10px;
+}
